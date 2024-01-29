@@ -41,8 +41,8 @@ devDependencies:
     specifier: ^3.9.3
     version: 3.9.3(eslint@8.56.0)(typescript@5.3.3)(vite@5.0.12)
   nuxt-og-image:
-    specifier: 3.0.0-rc.29
-    version: 3.0.0-rc.29(@lezer/common@1.2.1)(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.15)(nuxt@3.9.3)(postcss@8.4.33)(vite@5.0.12)(vue@3.4.15)(webpack@5.89.0)
+    specifier: 3.0.0-rc.30
+    version: 3.0.0-rc.30(@lezer/common@1.2.1)(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.15)(nuxt@3.9.3)(postcss@8.4.33)(vite@5.0.12)(vue@3.4.15)(webpack@5.89.0)
   vue:
     specifier: ^3.4.14
     version: 3.4.15(typescript@5.3.3)
@@ -506,7 +506,7 @@ packages:
       mime: 3.0.0
     dev: true
 
-  /@codemirror/autocomplete@6.12.0(@codemirror/language@6.10.0)(@codemirror/state@6.4.0)(@codemirror/view@6.23.0)(@lezer/common@1.2.1):
+  /@codemirror/autocomplete@6.12.0(@codemirror/language@6.10.0)(@codemirror/state@6.4.0)(@codemirror/view@6.23.1)(@lezer/common@1.2.1):
     resolution: {integrity: sha512-r4IjdYFthwbCQyvqnSlx0WBHRHi8nBvU+WjJxFUij81qsBfhNudf/XKKmmC2j3m0LaOYUQTf3qiEK1J8lO1sdg==}
     peerDependencies:
       '@codemirror/language': ^6.0.0
@@ -516,7 +516,7 @@ packages:
     dependencies:
       '@codemirror/language': 6.10.0
       '@codemirror/state': 6.4.0
-      '@codemirror/view': 6.23.0
+      '@codemirror/view': 6.23.1
       '@lezer/common': 1.2.1
     dev: true
 
@@ -525,7 +525,7 @@ packages:
     dependencies:
       '@codemirror/language': 6.10.0
       '@codemirror/state': 6.4.0
-      '@codemirror/view': 6.23.0
+      '@codemirror/view': 6.23.1
       '@lezer/common': 1.2.1
     dev: true
 
@@ -540,7 +540,7 @@ packages:
     resolution: {integrity: sha512-2vaNn9aPGCRFKWcHPFksctzJ8yS5p7YoaT+jHpc0UGKzNuAIx4qy6R5wiqbP+heEEdyaABA582mNqSHzSoYdmg==}
     dependencies:
       '@codemirror/state': 6.4.0
-      '@codemirror/view': 6.23.0
+      '@codemirror/view': 6.23.1
       '@lezer/common': 1.2.1
       '@lezer/highlight': 1.2.0
       '@lezer/lr': 1.4.0
@@ -551,7 +551,7 @@ packages:
     resolution: {integrity: sha512-wzRkluWb1ptPKdzlsrbwwjYCPLgzU6N88YBAmlZi8WFyuiEduSd05MnJYNogzyc8rPK7pj6m95ptUApc8sHKVA==}
     dependencies:
       '@codemirror/state': 6.4.0
-      '@codemirror/view': 6.23.0
+      '@codemirror/view': 6.23.1
       crelt: 1.0.6
     dev: true
 
@@ -559,7 +559,7 @@ packages:
     resolution: {integrity: sha512-PIEN3Ke1buPod2EHbJsoQwlbpkz30qGZKcnmH1eihq9+bPQx8gelauUwLYaY4vBOuBAuEhmpDLii4rj/uO0yMA==}
     dependencies:
       '@codemirror/state': 6.4.0
-      '@codemirror/view': 6.23.0
+      '@codemirror/view': 6.23.1
       crelt: 1.0.6
     dev: true
 
@@ -567,8 +567,8 @@ packages:
     resolution: {integrity: sha512-hm8XshYj5Fo30Bb922QX9hXB/bxOAVH+qaqHBzw5TKa72vOeslyGwd4X8M0c1dJ9JqxlaMceOQ8RsL9tC7gU0A==}
     dev: true
 
-  /@codemirror/view@6.23.0:
-    resolution: {integrity: sha512-/51px9N4uW8NpuWkyUX+iam5+PM6io2fm+QmRnzwqBy5v/pwGg9T0kILFtYeum8hjuvENtgsGNKluOfqIICmeQ==}
+  /@codemirror/view@6.23.1:
+    resolution: {integrity: sha512-J2Xnn5lFYT1ZN/5ewEoMBCmLlL71lZ3mBdb7cUEuHhX2ESoSrNEucpsDXpX22EuTGm9LOgC9v4Z0wx+Ez8QmGA==}
     dependencies:
       '@codemirror/state': 6.4.0
       style-mod: 4.1.0
@@ -1982,7 +1982,7 @@ packages:
     resolution: {integrity: sha512-2LuNTFBIO0m7kKIQvvPHN6UE63VjpmL9rnEEaOOaiSPbZK+zUOYIzBAWcED+3XYzhYsd/0mD57VdxAEqqV52CQ==}
     dev: true
 
-  /@replit/codemirror-indentation-markers@6.5.0(@codemirror/language@6.10.0)(@codemirror/state@6.4.0)(@codemirror/view@6.23.0):
+  /@replit/codemirror-indentation-markers@6.5.0(@codemirror/language@6.10.0)(@codemirror/state@6.4.0)(@codemirror/view@6.23.1):
     resolution: {integrity: sha512-5RgeuQ6erfROi1EVI2X7G4UR+KByjb07jhYMynvpvlrV22JlnARifmKMGEUKy0pKcxBNfwbFqoUlTYHPgyZNlg==}
     peerDependencies:
       '@codemirror/language': ^6.0.0
@@ -1991,7 +1991,7 @@ packages:
     dependencies:
       '@codemirror/language': 6.10.0
       '@codemirror/state': 6.4.0
-      '@codemirror/view': 6.23.0
+      '@codemirror/view': 6.23.1
     dev: true
 
   /@resvg/resvg-js-android-arm-eabi@2.6.0:
@@ -2790,6 +2790,10 @@ packages:
     resolution: {integrity: sha512-9hTxzsrSLh+07ql/lGhE+8ZbE9MTTeZeMx131cPf2jDJUxAZooLE5pBCoK0k77ZJGcribRrwPGkUScBNOK0cYQ==}
     dev: true
 
+  /@unocss/core@0.58.4:
+    resolution: {integrity: sha512-wh4pxXUCkhC+C/0ct74PMYeZgX+oWuHj2mnvr09nM0WmvOm1HeeISrDCCBGcxmKbErUk+D1v3JgzXF7b6j2l4g==}
+    dev: true
+
   /@unocss/eslint-plugin@0.58.3(eslint@8.56.0)(typescript@5.3.3):
     resolution: {integrity: sha512-5E55Oz13aPpbKblR/DQfjahl/CNChHI97P19Flv2CslS2rNjPwI2c1nV7He3SJdJtnfd88To78ltlz7UOZzOqA==}
     engines: {node: '>=14'}
@@ -2809,6 +2813,12 @@ packages:
     resolution: {integrity: sha512-QszC2atLcvzyoZFsjgtMBbILN4lrYI60iVRWdii+GGiKVtoIaKRWiA/3WERkvYGVPseVWOMflUpfxNeq+s9zUw==}
     dependencies:
       '@unocss/core': 0.58.3
+    dev: true
+
+  /@unocss/extractor-arbitrary-variants@0.58.4:
+    resolution: {integrity: sha512-TQlVtSQk8YdBU9KuTA5k6JBJ8d/aPrIsCWjDPfBvAqDvrll/dzwBCLoLTQMdCHFjCXCOYWKPum1ET+Wn9R+XbA==}
+    dependencies:
+      '@unocss/core': 0.58.4
     dev: true
 
   /@unocss/inspector@0.58.3:
@@ -2884,6 +2894,14 @@ packages:
       '@unocss/rule-utils': 0.58.3
     dev: true
 
+  /@unocss/preset-mini@0.58.4:
+    resolution: {integrity: sha512-cpIWUYxLi4VCkkjxpNJOVqH9D32NX1ebRFaoAVnvCRsoj5TRsZJSdxs0WMN7reHT/CUHh0Wh6d3TfMCFxzbZ4g==}
+    dependencies:
+      '@unocss/core': 0.58.4
+      '@unocss/extractor-arbitrary-variants': 0.58.4
+      '@unocss/rule-utils': 0.58.4
+    dev: true
+
   /@unocss/preset-tagify@0.58.3:
     resolution: {integrity: sha512-9CEh4p8M8zFuNFzmPIs1paExWRcwr0Gp6lSMffFnqaVToeRBgEH7VnRj6/R3ZPAmQ2rEemZ1+3eOQlsspEE6aw==}
     dependencies:
@@ -2921,6 +2939,14 @@ packages:
       '@unocss/rule-utils': 0.58.3
     dev: true
 
+  /@unocss/preset-wind@0.58.4:
+    resolution: {integrity: sha512-e2F0HsqPXw+nD85MKIZ63mx5yUx5g8iPOtMw9/eEUeK67HrD+jFxeLq0hAM3ou3a4589QIzeg23LXAkM7gCzvg==}
+    dependencies:
+      '@unocss/core': 0.58.4
+      '@unocss/preset-mini': 0.58.4
+      '@unocss/rule-utils': 0.58.4
+    dev: true
+
   /@unocss/reset@0.58.3:
     resolution: {integrity: sha512-Q2KiRQlam2iYsTZgKdvnXEfUN4TA2oVpGIVD9Wa0ggs0XlYj5aOo0g0+4Tgqqn+YaviZQeJKnDs/JWE+ygHhZA==}
     dev: true
@@ -2930,6 +2956,14 @@ packages:
     engines: {node: '>=14'}
     dependencies:
       '@unocss/core': 0.58.3
+      magic-string: 0.30.5
+    dev: true
+
+  /@unocss/rule-utils@0.58.4:
+    resolution: {integrity: sha512-52Jp4I+joGTaDm7ehB/7uZ2kJL+9BZcYRDUVk4IDacDH5W9yxf1F75LzYT8jJVWXD/HIhiS0r9V6qhcBq2OWZw==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@unocss/core': 0.58.4
       magic-string: 0.30.5
     dev: true
 
@@ -3941,8 +3975,8 @@ packages:
       periscopic: 3.1.0
     dev: true
 
-  /codemirror-wrapped-line-indent@1.0.0(@codemirror/language@6.10.0)(@codemirror/state@6.4.0)(@codemirror/view@6.23.0):
-    resolution: {integrity: sha512-8ny0CSJ1T6mYQuBF7yGzgRRv+zOXUBaBscvJH3jczK7Isi19RA2Ans9ip0gZBkUWCOhFmmw1IC1a+uN4zj0GNg==}
+  /codemirror-wrapped-line-indent@1.0.3(@codemirror/language@6.10.0)(@codemirror/state@6.4.0)(@codemirror/view@6.23.1):
+    resolution: {integrity: sha512-1MWPgyxcDcpGpqmBlraoQyIgbZMAmppj/e/9+gpqug68Gli+BtSLE3GLxGoRoRK5n5sFp8RH0xAQL5i7jOo2qQ==}
     peerDependencies:
       '@codemirror/language': ^6.9.0
       '@codemirror/state': ^6.2.1
@@ -3950,7 +3984,7 @@ packages:
     dependencies:
       '@codemirror/language': 6.10.0
       '@codemirror/state': 6.4.0
-      '@codemirror/view': 6.23.0
+      '@codemirror/view': 6.23.1
     dev: true
 
   /color-convert@1.9.3:
@@ -5956,7 +5990,7 @@ packages:
       '@vue/composition-api':
         optional: true
     dependencies:
-      vanilla-jsoneditor: 0.21.3(@lezer/common@1.2.1)
+      vanilla-jsoneditor: 0.21.4(@lezer/common@1.2.1)
       vue: 3.4.15(typescript@5.3.3)
       vue-demi: 0.14.6(vue@3.4.15)
     transitivePeerDependencies:
@@ -6805,8 +6839,8 @@ packages:
       - vue
     dev: true
 
-  /nuxt-og-image@3.0.0-rc.29(@lezer/common@1.2.1)(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.15)(nuxt@3.9.3)(postcss@8.4.33)(vite@5.0.12)(vue@3.4.15)(webpack@5.89.0):
-    resolution: {integrity: sha512-uGcmcs7qqVfC0av40t//5G74m1GT3kSvzcEBVJxCCr9Lce0LJkLjIKnMVaVNBFapNr52v7zAwm+RgyZlzjVxSA==}
+  /nuxt-og-image@3.0.0-rc.30(@lezer/common@1.2.1)(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.15)(nuxt@3.9.3)(postcss@8.4.33)(vite@5.0.12)(vue@3.4.15)(webpack@5.89.0):
+    resolution: {integrity: sha512-4QaKN7N/KH2OCQ8hlNZMS9wXk+qULrRXliVjDOf33kIe70JNv2CPij/2oLr3wWTamcgw1qHIft48xY62ny/Mtg==}
     dependencies:
       '@css-inline/css-inline': 0.13.0
       '@css-inline/css-inline-wasm': 0.13.0
@@ -6815,8 +6849,8 @@ packages:
       '@nuxt/kit': 3.9.3
       '@resvg/resvg-js': 2.6.0
       '@resvg/resvg-wasm': 2.6.0
-      '@unocss/core': 0.58.3
-      '@unocss/preset-wind': 0.58.3
+      '@unocss/core': 0.58.4
+      '@unocss/preset-wind': 0.58.4
       '@vueuse/core': 10.7.2(vue@3.4.15)
       chrome-launcher: 1.1.0
       defu: 6.1.4
@@ -6837,13 +6871,13 @@ packages:
       radix3: 1.1.0
       satori: 0.10.11
       satori-html: 0.3.2
-      shikiji: 0.10.0
+      shikiji: 0.10.2
       sirv: 2.0.4
       splitpanes: 3.1.5
       std-env: 3.7.0
       terminate: 2.6.1
       ufo: 1.3.2
-      vanilla-jsoneditor: 0.21.3(@lezer/common@1.2.1)
+      vanilla-jsoneditor: 0.21.4(@lezer/common@1.2.1)
       yoga-wasm-web: 0.3.3
     transitivePeerDependencies:
       - '@lezer/common'
@@ -6897,7 +6931,7 @@ packages:
       nuxt-site-config-kit: 2.2.8(vue@3.4.15)
       pathe: 1.1.2
       pkg-types: 1.0.3
-      shikiji: 0.10.0
+      shikiji: 0.10.2
       sirv: 2.0.4
       site-config-stack: 2.2.8(vue@3.4.15)
       ufo: 1.3.2
@@ -8108,14 +8142,14 @@ packages:
     resolution: {integrity: sha512-6j1W9l1iAs/4xYBI1SYOVZyFcCis9b4KCLQ8fgAGG07QvzaRLVVRQvAy85yNmmZSjYjg4MWh4gNvlPujU/5LpA==}
     dev: true
 
-  /shikiji-core@0.10.0:
-    resolution: {integrity: sha512-imG+bvRkuNlZUi2q9tMVfegRRouTpDxMFejpfF/6J+bFX3NDKtlW9T9iIAkBYnw4pcCtSwirW0AvkwlQR4wyxg==}
+  /shikiji-core@0.10.2:
+    resolution: {integrity: sha512-9Of8HMlF96usXJHmCL3Gd0Fcf0EcyJUF9m8EoAKKd98mHXi0La2AZl1h6PegSFGtiYcBDK/fLuKbDa1l16r1fA==}
     dev: true
 
-  /shikiji@0.10.0:
-    resolution: {integrity: sha512-1dAzIOWbtM7B4Sem5BvE+CEdsebDsRA34SfCxM4qJ4PLgR73ZD92VEtNfbcoZ3xOLSqvtV0J9i4WpCgVsmQteg==}
+  /shikiji@0.10.2:
+    resolution: {integrity: sha512-wtZg3T0vtYV2PnqusWQs3mDaJBdCPWxFDrBM/SE5LfrX92gjUvfEMlc+vJnoKY6Z/S44OWaCRzNIsdBRWcTAiw==}
     dependencies:
-      shikiji-core: 0.10.0
+      shikiji-core: 0.10.2
     dev: true
 
   /signal-exit@3.0.7:
@@ -8994,23 +9028,23 @@ packages:
       builtins: 5.0.1
     dev: true
 
-  /vanilla-jsoneditor@0.21.3(@lezer/common@1.2.1):
-    resolution: {integrity: sha512-P+nwaDRgsszGX1TkJK7k01BsbfTBb1yleq6rcR/H69xU9H140hKTOdwDb7i1XoeuXvJseQzlVFXCBNQyWiKmRQ==}
+  /vanilla-jsoneditor@0.21.4(@lezer/common@1.2.1):
+    resolution: {integrity: sha512-uhvF7IZbd/QM6yPznZ4IxF/FbOj3T85euc0jerjD65uExVV9qDihEpNg7hjaazj1njtRkao83aBRJZdaGCA/Sw==}
     dependencies:
-      '@codemirror/autocomplete': 6.12.0(@codemirror/language@6.10.0)(@codemirror/state@6.4.0)(@codemirror/view@6.23.0)(@lezer/common@1.2.1)
+      '@codemirror/autocomplete': 6.12.0(@codemirror/language@6.10.0)(@codemirror/state@6.4.0)(@codemirror/view@6.23.1)(@lezer/common@1.2.1)
       '@codemirror/commands': 6.3.3
       '@codemirror/lang-json': 6.0.1
       '@codemirror/language': 6.10.0
       '@codemirror/lint': 6.4.2
       '@codemirror/search': 6.5.5
       '@codemirror/state': 6.4.0
-      '@codemirror/view': 6.23.0
+      '@codemirror/view': 6.23.1
       '@fortawesome/free-regular-svg-icons': 6.5.1
       '@fortawesome/free-solid-svg-icons': 6.5.1
       '@lezer/highlight': 1.2.0
-      '@replit/codemirror-indentation-markers': 6.5.0(@codemirror/language@6.10.0)(@codemirror/state@6.4.0)(@codemirror/view@6.23.0)
+      '@replit/codemirror-indentation-markers': 6.5.0(@codemirror/language@6.10.0)(@codemirror/state@6.4.0)(@codemirror/view@6.23.1)
       ajv: 8.12.0
-      codemirror-wrapped-line-indent: 1.0.0(@codemirror/language@6.10.0)(@codemirror/state@6.4.0)(@codemirror/view@6.23.0)
+      codemirror-wrapped-line-indent: 1.0.3(@codemirror/language@6.10.0)(@codemirror/state@6.4.0)(@codemirror/view@6.23.1)
       diff-sequences: 29.6.3
       immutable-json-patch: 6.0.1
       jmespath: 0.16.0
