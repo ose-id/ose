@@ -14,8 +14,8 @@ devDependencies:
     specifier: ^2.6.3
     version: 2.6.3(@unocss/eslint-plugin@0.58.3)(@vue/compiler-sfc@3.4.15)(eslint@8.56.0)(typescript@5.3.3)
   '@iconify/json':
-    specifier: ^2.2.172
-    version: 2.2.172
+    specifier: ^2.2.185
+    version: 2.2.185
   '@nuxtjs/color-mode':
     specifier: ^3.3.2
     version: 3.3.2
@@ -1045,8 +1045,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify/json@2.2.172:
-    resolution: {integrity: sha512-/QX702onUWOyj7RZyZD1x+QgrjYMUHRPGaz7ycqXg+YOcxYKZ0pZ6HqaL6njstTc9THrWnTF0ZsQEM1eCq86Ag==}
+  /@iconify/json@2.2.185:
+    resolution: {integrity: sha512-dVIjPe3+ms7CpH84ScIdUopc+Z0X8UWBkFOLNyWaltmho0sOC/35FEOBAPvz3ME7Do+MPToEle5aTJ0K2RsNyw==}
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.2
