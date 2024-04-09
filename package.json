@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.3",
-    "@iconify/json": "^2.2.172",
+    "@iconify/json": "^2.2.199",
     "@nuxtjs/color-mode": "^3.3.2",
     "@nuxtjs/sitemap": "^5.0.5",
     "@unocss/eslint-plugin": "^0.58.3",
