@@ -1,4 +1,4 @@
-# Official OSEc
+# Official OSE
 
 ![Static Badge](https://img.shields.io/badge/license-MIT-brightgreen?label=LICENSE)
 
