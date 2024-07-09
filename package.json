@@ -24,7 +24,7 @@
     "@vueuse/core": "^10.7.2",
     "@vueuse/nuxt": "^10.7.2",
     "eslint": "^8.56.0",
-    "nuxt": "^3.9.3",
+    "nuxt": "^3.11.2",
     "nuxt-og-image": "3.0.0-rc.29",
     "vue": "^3.4.14",
     "vue-router": "^4.2.5"
