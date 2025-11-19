@@ -1,3 +1,5 @@
+import tailwindcss from '@tailwindcss/vite';
+
 export default defineNuxtConfig({
   app: {
     head: {
@@ -6,26 +8,31 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'en',
       },
+      meta: [
+        { name: 'keywords', content: 'adydetra, Adityawarman, Dewa, Putra, SMKN 1 Jakarta, Frontend Developer, Aptrocode' },
+        { name: 'author', content: 'Adityawarman Dewa Putra' },
+      ],
     },
   },
 
-  modules: ['@unocss/nuxt', '@nuxtjs/color-mode', '@nuxt/image', '@nuxtjs/sitemap', '@vueuse/nuxt', 'nuxt-og-image'],
+  css: ['./app/assets/css/main.css'],
 
-  srcDir: 'src/',
-
-  site: {
-    url: 'https://blog.adydetra.my.id',
-  },
-
-  ogImage: {
-    fonts: [
-      'Outfit:400',
+  vite: {
+    plugins: [
+      tailwindcss(),
     ],
   },
 
-  colorMode: {
-    classSuffix: '',
-    preference: 'light',
+  routeRules: {
+    '/': {
+      prerender: true,
+    },
+  },
+
+  modules: ['@nuxt/image', '@nuxtjs/sitemap'],
+
+  site: {
+    url: 'https://ose.vercel.app',
   },
 
   devtools: {
@@ -35,4 +42,6 @@ export default defineNuxtConfig({
   sitemap: {
     xsl: false,
   },
+
+  compatibilityDate: '2025-11-19',
 });

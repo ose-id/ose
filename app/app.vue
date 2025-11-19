@@ -67,6 +67,6 @@ body {
   color-scheme: dark;
 }
 a {
-  @apply !no-underline text-black dark:text-white;
+  @apply no-underline text-black dark:text-white;
 }
 </style>
